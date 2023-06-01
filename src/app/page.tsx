@@ -16,7 +16,7 @@ export default function Home() {
   };
   return (
     <>
-      <h1>リンク集</h1>
+      <h1>変更後の文字</h1>
       <Modal hander={inputHander} />
       {props.map((e, i) => {
         return <Card key={i} {...e} />;
